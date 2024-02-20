@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#home-screen{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: honeydew;
+    text-align: center;
+}
+
+#challenge{
+    padding-top: 2%;
+}
+
+#name{
+    color: lightblue;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 30px;
+    position: absolute;
+    right: 60px;
+  }
+
+.animation-img{
+    animation: scaleimg 2s;
+}
+
+@keyframes scaleimg{
+    0%{
+        width: 35%;
+    }
+    50%{
+        width: 90%;
+    }
+    100%{
+        width: 35%;
+    }
+}
+
+#box{
+    display: block;
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
